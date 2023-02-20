@@ -1,0 +1,17 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+
+# Make nano the default text editor
+EDITOR="nano"
+
+# Enable AMD hardware acceleration
+LIBVA_DRIVER_NAME="radeonsi"
+VDPAU_DRIVER="radeonsi"
+
+# Make Wayland the default for Qt, GDK and Firefox, respectively
+QT_QPA_PLATFORM="wayland;xcb"
+GDK_BACKEND="wayland"
+MOZ_ENABLE_WAYLAND=1
+
