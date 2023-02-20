@@ -1,0 +1,10 @@
+ALL_config="/etc/mkinitcpio.conf"
+ALL_kver="/boot/vmlinuz-linux"
+ALL_microcode=(/boot/amd-ucode.img)
+
+PRESETS=('default')
+
+#default_config="/etc/mkinitcpio.conf"
+#default_image="/boot/initramfs-linux.img"
+#default_options=""
+default_uki="/efi/EFI/Linux/linux.efi"
